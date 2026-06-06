@@ -49,10 +49,10 @@ export default function Header() {
               className="flex flex-col leading-none group"
               aria-label={siteConfig.name}
             >
-              <span className="font-display text-xl lg:text-2xl font-semibold text-charcoal tracking-tight group-hover:text-teal transition-colors duration-300">
+              <span className={`font-display text-xl lg:text-2xl font-semibold tracking-tight transition-colors duration-500 group-hover:text-teal ${scrolled ? 'text-charcoal' : 'text-white'}`}>
                 Family &amp; Cosmetic
               </span>
-              <span className="text-[10px] font-body font-medium tracking-[0.18em] uppercase text-charcoal-400 mt-0.5">
+              <span className={`text-[10px] font-body font-medium tracking-[0.18em] uppercase mt-0.5 transition-colors duration-500 ${scrolled ? 'text-charcoal-400' : 'text-white/60'}`}>
                 Dentistry — Dr. Karen Quraishi
               </span>
             </Link>
@@ -66,7 +66,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-xs font-body font-medium tracking-widest uppercase text-charcoal-500 hover:text-charcoal transition-colors duration-200 relative group"
+                  className={`text-xs font-body font-medium tracking-widest uppercase transition-colors duration-200 relative group ${scrolled ? 'text-charcoal-500 hover:text-charcoal' : 'text-white/85 hover:text-white'}`}
                 >
                   {link.label}
                   <span className="absolute -bottom-0.5 left-0 right-0 h-px bg-brass origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-expo-out" />
@@ -78,7 +78,7 @@ export default function Header() {
             <div className="hidden lg:flex items-center gap-4">
               <a
                 href={siteConfig.phoneHref}
-                className="flex items-center gap-2 text-sm font-body font-medium text-charcoal-500 hover:text-brass transition-colors duration-200"
+                className={`flex items-center gap-2 text-sm font-body font-medium transition-colors duration-200 hover:text-brass ${scrolled ? 'text-charcoal-500' : 'text-white/85'}`}
                 aria-label={`Call us at ${siteConfig.phone}`}
               >
                 <PhoneIcon />
@@ -93,20 +93,20 @@ export default function Header() {
             <div className="flex lg:hidden items-center gap-3">
               <a
                 href={siteConfig.phoneHref}
-                className="flex items-center justify-center w-9 h-9 rounded-sm text-charcoal hover:text-brass transition-colors"
+                className={`flex items-center justify-center w-9 h-9 rounded-sm hover:text-brass transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}
                 aria-label={`Call ${siteConfig.phone}`}
               >
                 <PhoneIcon />
               </a>
               <button
                 onClick={() => setMobileOpen(true)}
-                className="flex flex-col items-end justify-center gap-1.5 w-9 h-9 rounded-sm hover:bg-cream-200 transition-colors"
+                className="flex flex-col items-end justify-center gap-1.5 w-9 h-9 rounded-sm transition-colors"
                 aria-label="Open navigation menu"
                 aria-expanded={mobileOpen}
               >
-                <span className="block w-5 h-px bg-charcoal rounded-full" />
-                <span className="block w-4 h-px bg-charcoal rounded-full" />
-                <span className="block w-5 h-px bg-charcoal rounded-full" />
+                <span className={`block w-5 h-px rounded-full transition-colors duration-500 ${scrolled ? 'bg-charcoal' : 'bg-white'}`} />
+                <span className={`block w-4 h-px rounded-full transition-colors duration-500 ${scrolled ? 'bg-charcoal' : 'bg-white'}`} />
+                <span className={`block w-5 h-px rounded-full transition-colors duration-500 ${scrolled ? 'bg-charcoal' : 'bg-white'}`} />
               </button>
             </div>
           </div>
