@@ -94,6 +94,84 @@ export const serviceCategories: ServiceCategory[] = [
         imageUrl:
           'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&h=675&fit=crop&q=85',
       },
+      {
+        id: 'sealants',
+        categoryId: 'general',
+        name: 'Dental Sealants',
+        shortDescription: 'A thin protective coating that shields back teeth from cavities.',
+        description:
+          'Dental sealants are a fast, painless, and highly effective way to protect the chewing surfaces of back teeth — where most cavities in children and teens begin. A thin layer of tooth-colored resin is painted onto the grooves of the molars, hardened with a curing light, and acts as a physical barrier against bacteria and food particles for years.',
+        benefits: [
+          'Reduces cavity risk by up to 80% in treated teeth',
+          'Applied in minutes — no drilling or anesthesia required',
+          'Long-lasting protection (5–10 years with proper care)',
+          'Safe for both children and adults',
+        ],
+        faqs: [
+          {
+            q: 'At what age should children get sealants?',
+            a: 'Ideally as soon as the first permanent molars come in, usually between ages 6 and 12. Adults without decay or existing fillings can also benefit.',
+          },
+          {
+            q: 'Does insurance cover dental sealants?',
+            a: 'Most insurance plans cover sealants for children under 18. We will verify your coverage before the appointment.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&h=675&fit=crop&q=85',
+      },
+      {
+        id: 'fluoride',
+        categoryId: 'general',
+        name: 'Fluoride Treatments',
+        shortDescription: 'Professional fluoride to strengthen enamel and prevent decay.',
+        description:
+          'Professional fluoride treatments deliver a concentrated dose of fluoride directly to your teeth, strengthening enamel, reversing early-stage decay, and significantly reducing cavity risk. Applied in a matter of minutes at your regular cleaning visit, it is one of the simplest and most effective preventive tools in dentistry.',
+        benefits: [
+          'Strengthens enamel against acid erosion',
+          'Can reverse early white-spot lesions before they become cavities',
+          'Especially beneficial for patients with dry mouth, braces, or high cavity risk',
+          'Takes just minutes — added to your regular cleaning visit',
+        ],
+        faqs: [
+          {
+            q: 'Is fluoride safe for adults?',
+            a: 'Yes. Professional fluoride is safe and beneficial for patients of all ages, not just children. Adults with receding gums or a history of frequent cavities benefit most.',
+          },
+          {
+            q: 'How often should I have fluoride treatments?',
+            a: 'Typically twice a year alongside your cleaning. Patients at higher risk for cavities may benefit from more frequent applications.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=900&h=675&fit=crop&q=85',
+      },
+      {
+        id: 'extractions',
+        categoryId: 'general',
+        name: 'Tooth Extractions',
+        shortDescription: 'Safe, comfortable removal of damaged, crowded, or impacted teeth.',
+        description:
+          'When a tooth is too damaged, decayed, or crowded to save, extraction is the most practical path forward. We perform simple extractions in-office under local anesthesia — and for more complex cases such as impacted wisdom teeth, we can coordinate with a trusted oral surgery specialist to ensure the best outcome.',
+        benefits: [
+          'Eliminates pain from severely damaged or infected teeth',
+          'Prevents the spread of infection to neighboring teeth',
+          'Clears space for orthodontic treatment when needed',
+          'Comfortable — full anesthesia before any work begins',
+        ],
+        faqs: [
+          {
+            q: 'Does getting a tooth pulled hurt?',
+            a: 'No. The area is thoroughly numbed before extraction. You will feel pressure but not pain. Post-extraction soreness is normal and resolves within a few days.',
+          },
+          {
+            q: 'What happens after an extraction — do I need a replacement?',
+            a: 'In most cases, yes. Leaving a gap can cause neighboring teeth to shift. We will discuss your replacement options — implant, bridge, or partial denture — before or at the time of extraction.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=900&h=675&fit=crop&q=85',
+      },
     ],
   },
   {
