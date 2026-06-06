@@ -24,8 +24,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    template: `%s | ${siteConfig.name} — Dr. Karen Quraishi, Sterling Heights MI`,
-    default: `${siteConfig.name} | Dr. Karen Quraishi, DDS — Sterling Heights, MI`,
+    template: `%s | Dr. Karen Quraishi, DDS — Sterling Heights, MI`,
+    default: `Family & Cosmetic Dentistry | Dr. Karen Quraishi, DDS — Sterling Heights, MI`,
   },
   description:
     'Premium dental care in Sterling Heights, MI. Dr. Karen Quraishi offers cosmetic dentistry, dental implants, Invisalign, veneers, and comprehensive family dental services. Serving ZIP codes 48310, 48312, 48313, 48314, 48317.',
@@ -44,15 +44,28 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: `${siteConfig.name} | Dr. Karen Quraishi, DDS`,
+    siteName: 'Dr. Karen Quraishi, DDS',
+    title: 'Family & Cosmetic Dentistry — Dr. Karen Quraishi, DDS',
     description:
-      'Premium dental care in Sterling Heights, MI — cosmetic dentistry, implants, Invisalign, and comprehensive family dentistry.',
+      'Boutique dental care in Sterling Heights, MI. Cosmetic dentistry, implants, Invisalign, veneers & more. Book your visit today.',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200&h=630&fit=crop&crop=faces&q=90',
+        width: 1200,
+        height: 630,
+        alt: 'Family & Cosmetic Dentistry — Dr. Karen Quraishi, DDS — Sterling Heights, MI',
+        // TODO: replace with a real branded OG image (practice logo + hero photo) before launch
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} | Dr. Karen Quraishi, DDS`,
-    description: 'Premium dental care in Sterling Heights, MI.',
+    title: 'Family & Cosmetic Dentistry — Dr. Karen Quraishi, DDS',
+    description:
+      'Boutique dental care in Sterling Heights, MI. Cosmetic dentistry, implants, Invisalign & more.',
+    images: [
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200&h=630&fit=crop&crop=faces&q=90',
+    ],
   },
   robots: {
     index: true,

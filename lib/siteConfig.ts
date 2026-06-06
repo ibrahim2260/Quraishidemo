@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'Family & Cosmetic Dentistry',
   shortName: 'FCD Sterling Heights',
   tagline: 'Dentistry Worth Smiling About.',
-  url: 'https://familyandcosmeticdentistry.com',
+  url: 'https://quraishidemo.vercel.app', // TODO: update to final domain when live
   phone: '(586) 800-8770',
   phoneHref: 'tel:+15868008770',
   email: 'info@familyandcosmeticdentistry.com',
