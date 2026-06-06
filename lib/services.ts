@@ -586,7 +586,7 @@ export const serviceCategories: ServiceCategory[] = [
           },
         ],
         imageUrl:
-          'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=900&h=675&fit=crop&q=85',
+          'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=900&h=675&fit=crop&crop=faces&q=85',
       },
       {
         id: 'sedation',
