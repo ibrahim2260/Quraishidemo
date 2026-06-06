@@ -409,6 +409,84 @@ export const serviceCategories: ServiceCategory[] = [
         imageUrl:
           'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=900&h=675&fit=crop&q=85',
       },
+      {
+        id: 'inlays-onlays',
+        categoryId: 'restorative',
+        name: 'Inlays & Onlays',
+        shortDescription: 'Precision restorations for moderate damage — stronger than fillings, more conservative than crowns.',
+        description:
+          'When a tooth has too much damage for a filling but not enough to justify a full crown, an inlay or onlay is the ideal solution. Custom-crafted from tooth-colored porcelain or composite resin in a dental lab, these precision restorations fit perfectly into or over the damaged area — restoring full strength while preserving as much natural tooth structure as possible.',
+        benefits: [
+          'More durable than composite fillings for larger repairs',
+          'Preserves significantly more natural tooth than a crown',
+          'Matched precisely to your natural tooth color',
+          'Long-lasting — typically 10–20 years with proper care',
+        ],
+        faqs: [
+          {
+            q: 'What is the difference between an inlay and an onlay?',
+            a: 'An inlay fits within the cusps of the tooth (inside the chewing surface). An onlay covers one or more cusps — essentially a partial crown. Your dentist will recommend the appropriate type based on how much of the tooth is affected.',
+          },
+          {
+            q: 'How many appointments does it take?',
+            a: 'Typically two visits — one to prepare the tooth and take an impression, and one to place the final restoration once it returns from the lab.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&h=675&fit=crop&q=85',
+      },
+      {
+        id: 'implant-dentures',
+        categoryId: 'restorative',
+        name: 'Implant-Supported Dentures',
+        shortDescription: 'The stability of implants combined with the coverage of dentures.',
+        description:
+          'Traditional dentures can slip, restrict what you eat, and require messy adhesives. Implant-supported dentures snap onto a series of dental implants anchored in the jawbone — giving you a full arch of teeth that stay securely in place, feel more natural, and protect your jawbone from the bone loss that conventional dentures cannot prevent.',
+        benefits: [
+          'Eliminates slipping and adhesives for good',
+          'Preserves jawbone and facial structure over time',
+          'Eat virtually anything with confidence',
+          'Removable for easy cleaning, secure when wearing',
+        ],
+        faqs: [
+          {
+            q: 'How many implants are needed to support a denture?',
+            a: 'Typically 2–4 implants per arch, depending on the system used and your bone density. We will assess your bone structure and recommend the appropriate number during your consultation.',
+          },
+          {
+            q: 'Am I a candidate if I currently wear traditional dentures?',
+            a: 'Many current denture wearers are excellent candidates. However, if significant bone loss has occurred over time, a bone graft may be recommended first to create a stable foundation.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&h=675&fit=crop&crop=faces&q=85',
+      },
+      {
+        id: 'full-mouth-reconstruction',
+        categoryId: 'restorative',
+        name: 'Full Mouth Reconstruction',
+        shortDescription: 'A comprehensive, coordinated plan to rebuild your entire smile.',
+        description:
+          'Full mouth reconstruction is for patients whose teeth have been significantly damaged by decay, injury, acid erosion, or years of wear — requiring multiple restorative treatments to be planned and completed together. Rather than treating each problem in isolation, Dr. Quraishi creates a unified roadmap that addresses function, health, and aesthetics simultaneously.',
+        benefits: [
+          'Restores full chewing function and bite alignment',
+          'Addresses all dental issues in a single coordinated plan',
+          'Phased treatment options to fit your timeline and budget',
+          'Combines restorative and cosmetic work for complete results',
+        ],
+        faqs: [
+          {
+            q: 'How long does full mouth reconstruction take?',
+            a: 'It depends on the complexity and number of treatments involved. Some cases are completed in a few months; more complex reconstructions may be phased over 6–18 months to allow for healing.',
+          },
+          {
+            q: 'Is full mouth reconstruction covered by insurance?',
+            a: 'Restorative procedures are typically covered in part by dental insurance. Cosmetic components may not be. We will break down coverage clearly before treatment begins so there are no surprises.',
+          },
+        ],
+        imageUrl:
+          'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&h=675&fit=crop&q=85',
+      },
     ],
   },
   {
